@@ -48,19 +48,23 @@ function Book() {
   ];
 
   return (
-		<HTMLFlipBook width={370} height={500} maxShadowOpacity={0.5} drawShadow={true} showCover={true} size="fixed">
-			<div className="page" style={{ background: "transparent" }}>
-				<div className="page-content cover">
-					<img src="/assets/kot-koffietafel-p1.jpg" alt="Pokémon Logo" className="pokemon-logo" />
-				</div>
-			</div>
+    <div className='site'>
+      <p>Der is nog nen achterkant :p</p>
 
-			<div className="page">
-				<div className="page-content cover">
-					<img src="/assets/kot-koffietafel-p2.jpg" alt="Pokémon Logo" className="pokemon-logo" />
-				</div>
-			</div>
-		</HTMLFlipBook>
+      <HTMLFlipBook width={370} height={500} maxShadowOpacity={0.5} drawShadow={true} showCover={true} size="fixed">
+        <div className="page" style={{ background: "transparent" }}>
+          <div className="page-content cover">
+            <img src="/assets/kot-koffietafel-p1.jpg" alt="Pokémon Logo" className="pokemon-logo" />
+          </div>
+        </div>
+
+        <div className="page">
+          <div className="page-content cover">
+            <img src="/assets/kot-koffietafel-p2.jpg" alt="Pokémon Logo" className="pokemon-logo" />
+          </div>
+        </div>
+      </HTMLFlipBook>
+    </div>
   );
 }
 
