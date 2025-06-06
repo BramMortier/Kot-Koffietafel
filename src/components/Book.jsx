@@ -59,7 +59,7 @@ function Book() {
       <div className="page" style={{ background: 'transparent' }}>
         <div className="page-content cover">
           <img 
-            src="../src/assets/kot koffietafel-p1.jpg" 
+            src="../src/assets/kot-koffietafel-p1.jpg" 
             alt="Pokémon Logo" 
             className="pokemon-logo"
           />
@@ -73,7 +73,7 @@ function Book() {
       <div className="page">
         <div className="page-content cover">
           <img 
-            src="../src/assets/kot koffietafel-p2.jpg" 
+            src="../src/assets/kot-koffietafel-p2.jpg" 
             alt="Pokémon Logo" 
             className="pokemon-logo"
           />
