@@ -55,15 +55,11 @@ function Book() {
 				</div>
 			</div>
 
-			<div className="page"></div>
-
 			<div className="page">
 				<div className="page-content cover">
 					<img src="/assets/kot-koffietafel-p2.jpg" alt="Pokémon Logo" className="pokemon-logo" />
 				</div>
 			</div>
-
-			<div className="page"></div>
 		</HTMLFlipBook>
   );
 }
